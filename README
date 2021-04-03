@@ -1,3 +1,5 @@
+# Original README
+
 This is Open Source implementation of Audio Processing Technology codec (aptX)
 derived from ffmpeg 4.0 project and licensed under LGPLv2.1+. This codec is
 mainly used in Bluetooth A2DP profile.
@@ -36,3 +38,6 @@ $ sox sample.mp3 -t raw -r 44.1k -L -e s -b 24 -c 2 - | openaptxenc --hd > sampl
 To play aptX HD audio file sample.aptxhd run:
 
 $ openaptxdec --hd < sample.aptxhd | play -t raw -r 44.1k -L -e s -b 24 -c 2 -
+
+# Fork README
+This fork provides CMake build files that allow to compile on macOS

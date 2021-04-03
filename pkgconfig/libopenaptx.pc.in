@@ -1,0 +1,11 @@
+prefix=@PREFIX@
+exec_prefix=@PC_VAR_PREFIX@
+libdir=@LIBDIR@
+includedir=@INCLUDEDIR@
+
+Name: libopenaptx
+Description: Open Source implementation of Audio Processing Technology codec (aptX)
+Version: @VERSION@
+
+Libs: -L@PC_VAR_LIBDIR@ -lopenaptx
+Cflags: -I@PC_VAR_INCLUDEDIR@
